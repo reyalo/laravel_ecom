@@ -40,6 +40,8 @@ Route::post('user/payment/save', 'AuthController@savePayment')->name('savePaymen
 
 //! Admin Panel  ->rgrm
 
+//Test for Github
+
 
 Route::group(['middleware' => ['auth', 'verified']], function () {
 
